@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'books',
     'tinymce',
     'cart',
+    'order',
 ]
 
 MIDDLEWARE_CLASSES = [
@@ -153,3 +154,6 @@ CACHES = {
 }
 SESSION_ENGINE = 'django.contrib.sessions.backends.cache'
 SESSION_CACHE_ALIAS = 'default'
+
+
+ALIPAY_URL = 'https://openapi.alipaydev.com/gateway.do'

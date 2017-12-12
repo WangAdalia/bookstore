@@ -101,6 +101,8 @@
 	var $to_x = $('#show_count').offset().top;
 	var $to_y = $('#show_count').offset().left;
 
+
+
 	$(".add_jump").css({'left':$add_y+80,'top':$add_x+10,'display':'block'})
 	$('#add_cart').click(function(){
 		$(".add_jump").stop().animate({
@@ -108,7 +110,7 @@
 			'top': $to_x+7},
 			"fast", function() {
 				$(".add_jump").fadeOut('fast',function(){
-					$('#show_count').html(2);
+					$('#show_count').html(1);
 				});
 
 		});
