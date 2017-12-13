@@ -50,9 +50,11 @@ class Books(models.Model):
     unit = models.CharField(max_length=5,verbose_name='书籍单位')
     sales = models.IntegerField(default=0, verbose_name='商品销量')
     type_id = models.SmallIntegerField(default=PYTHON,choices=((k,v)for k,v in BOOK_TYPES.items()),verbose_name='书籍类型')
-    status = models.SmallIntegerField(default=ONLINE,choices=((k,v)for k,v in STATUSES.items()),verbose_name='商品状态')
+    status_choices = ((k, v) for k, v in STATUS_CHOICE.items())
     details = HTMLField(default='')
-    image = models.ImageField(default='',upload_to='books',verbose_name='商品图片')
+    stock = models.IntegerField(default=0, verbose_name="商品库存")
+    image = models.ImageField(upload_to='books',verbose_name='商品图片')
+    status = models.SmallIntegerField(default=ONLINE, choices=status_choices, verbose_name='商品状态')
     objects = BooksManager()
     class Meta:
         db_table = 's_book_info'

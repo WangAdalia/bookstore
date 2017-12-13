@@ -2,7 +2,6 @@
 from __future__ import unicode_literals
 
 from django.db import models, migrations
-import tinymce.models
 
 
 class Migration(migrations.Migration):
@@ -14,12 +13,12 @@ class Migration(migrations.Migration):
     operations = [
         migrations.AddField(
             model_name='books',
-            name='details',
-            field=tinymce.models.HTMLField(default=''),
+            name='stock',
+            field=models.IntegerField(verbose_name='商品库存', default=0),
         ),
-        migrations.AddField(
+        migrations.AlterField(
             model_name='books',
             name='image',
-            field=models.ImageField(default='', upload_to='books', verbose_name='商品图片'),
+            field=models.ImageField(verbose_name='商品图片', upload_to='books'),
         ),
     ]

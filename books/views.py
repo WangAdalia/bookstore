@@ -6,7 +6,7 @@ from django.core.paginator import Paginator
 from django.views.decorators.cache import  cache_page
 
 # Create your views here.
-@cache_page(60*3)
+#@cache_page(60*3)
 def index(request):
     '''显示首页'''
     #查询每个种类的3个新品信息和4个销售最好的商品信息

@@ -156,4 +156,15 @@ SESSION_ENGINE = 'django.contrib.sessions.backends.cache'
 SESSION_CACHE_ALIAS = 'default'
 
 
+
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_HOST = 'smtp.163.com'
+EMAIL_PORT = 25
+#发送邮件的邮箱
+EMAIL_HOST_USER = '13663828057@163.com'
+#在邮箱中设置的客户端授权密码
+EMAIL_HOST_PASSWORD = 'wang123'
+#收件人看到的发件人
+EMAIL_FROM = 'haha<13663828057@163.com>'
+
 ALIPAY_URL = 'https://openapi.alipaydev.com/gateway.do'

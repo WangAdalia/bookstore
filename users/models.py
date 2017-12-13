@@ -17,6 +17,14 @@ class PassportManager(models.Manager):
             passpost = None
         return  passpost
 
+    def check_passport(self, username):
+        '''检查是否存在用户名'''
+        try:
+            passport = self.get(username=username)
+        except self.model.DoesNotExist:
+            passport = None
+        return passport
+
 
 class Passport(BaseModel):
     #用户模型
@@ -31,6 +39,8 @@ class Passport(BaseModel):
     class Meta:
         db_table = 's_user_account'
 
+    def __str__(self):
+        return self.username
 
 def get_hash(str):
     sh = sha1()

@@ -14,7 +14,7 @@ BOOK_TYPES = {
 }
 ONLINE = 1
 OFFLINE = 0
-STATUSES = {
+STATUS_CHOICE = {
     ONLINE:'上线',
     OFFLINE:'下线',
 }
