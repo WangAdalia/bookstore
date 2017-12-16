@@ -1,0 +1,184 @@
+*** Starting uWSGI 2.0.15 (64bit) on [Fri Dec 15 11:21:12 2017] ***
+compiled with version: 5.4.0 20160609 on 04 December 2017 14:13:56
+os: Linux-4.10.0-40-generic #44~16.04.1-Ubuntu SMP Thu Nov 9 15:37:44 UTC 2017
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /home/atguigu/PycharmProjects/bookstore
+writing pidfile to uwsgi.pid
+detected binary path: /home/atguigu/.virtualenvs/py2/bin/uwsgi
+chdir() to /PycharmProjects/bookstore/bookstoredata/bookstore/bookstore
+chdir(): No such file or directory [core/uwsgi.c line 2591]
+*** Starting uWSGI 2.0.15 (64bit) on [Fri Dec 15 11:40:29 2017] ***
+compiled with version: 5.4.0 20160609 on 04 December 2017 14:13:56
+os: Linux-4.10.0-40-generic #44~16.04.1-Ubuntu SMP Thu Nov 9 15:37:44 UTC 2017
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /home/atguigu/PycharmProjects/bookstore
+writing pidfile to uwsgi.pid
+detected binary path: /home/atguigu/.virtualenvs/py2/bin/uwsgi
+chdir() to /PycharmProjects/bookstore/bookstoredata/bookstore/bookstore
+chdir(): No such file or directory [core/uwsgi.c line 2591]
+*** Starting uWSGI 2.0.15 (64bit) on [Fri Dec 15 11:47:58 2017] ***
+compiled with version: 5.4.0 20160609 on 04 December 2017 14:13:56
+os: Linux-4.10.0-40-generic #44~16.04.1-Ubuntu SMP Thu Nov 9 15:37:44 UTC 2017
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /home/atguigu/PycharmProjects/bookstore
+writing pidfile to uwsgi.pid
+detected binary path: /home/atguigu/.virtualenvs/py2/bin/uwsgi
+chdir() to /home/atguigu/PycharmProjects/bookstore
+your processes number limit is 7744
+your memory page size is 4096 bytes
+detected max file descriptor number: 65536
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:8001).
+bind(): Address already in use [core/socket.c line 769]
+*** Starting uWSGI 2.0.15 (64bit) on [Fri Dec 15 11:50:05 2017] ***
+compiled with version: 5.4.0 20160609 on 04 December 2017 14:13:56
+os: Linux-4.10.0-40-generic #44~16.04.1-Ubuntu SMP Thu Nov 9 15:37:44 UTC 2017
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /home/atguigu/PycharmProjects/bookstore
+writing pidfile to uwsgi.pid
+detected binary path: /home/atguigu/.virtualenvs/py2/bin/uwsgi
+chdir() to /home/atguigu/PycharmProjects/bookstore
+your processes number limit is 7744
+your memory page size is 4096 bytes
+detected max file descriptor number: 65536
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:8001).
+bind(): Address already in use [core/socket.c line 769]
+*** Starting uWSGI 2.0.15 (64bit) on [Fri Dec 15 11:50:11 2017] ***
+compiled with version: 5.4.0 20160609 on 04 December 2017 14:13:56
+os: Linux-4.10.0-40-generic #44~16.04.1-Ubuntu SMP Thu Nov 9 15:37:44 UTC 2017
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /home/atguigu/PycharmProjects/bookstore
+writing pidfile to uwsgi.pid
+detected binary path: /home/atguigu/.virtualenvs/py2/bin/uwsgi
+chdir() to /home/atguigu/PycharmProjects/bookstore
+your processes number limit is 7744
+your memory page size is 4096 bytes
+detected max file descriptor number: 65536
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:8001).
+bind(): Address already in use [core/socket.c line 769]
+*** Starting uWSGI 2.0.15 (64bit) on [Fri Dec 15 12:00:29 2017] ***
+compiled with version: 5.4.0 20160609 on 04 December 2017 14:13:56
+os: Linux-4.10.0-40-generic #44~16.04.1-Ubuntu SMP Thu Nov 9 15:37:44 UTC 2017
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /home/atguigu/PycharmProjects/bookstore
+writing pidfile to uwsgi.pid
+detected binary path: /home/atguigu/.virtualenvs/py2/bin/uwsgi
+chdir() to /home/atguigu/PycharmProjects/bookstore
+your processes number limit is 7744
+your memory page size is 4096 bytes
+detected max file descriptor number: 65536
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:8001).
+bind(): Address already in use [core/socket.c line 769]
+*** Starting uWSGI 2.0.15 (64bit) on [Fri Dec 15 14:15:38 2017] ***
+compiled with version: 5.4.0 20160609 on 04 December 2017 14:13:56
+os: Linux-4.10.0-40-generic #44~16.04.1-Ubuntu SMP Thu Nov 9 15:37:44 UTC 2017
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /home/atguigu/PycharmProjects/bookstore
+writing pidfile to uwsgi.pid
+detected binary path: /home/atguigu/.virtualenvs/py2/bin/uwsgi
+chdir() to /home/atguigu/PycharmProjects/bookstore
+your processes number limit is 7744
+your memory page size is 4096 bytes
+detected max file descriptor number: 65536
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:8001).
+bind(): Address already in use [core/socket.c line 769]
+*** Starting uWSGI 2.0.15 (64bit) on [Fri Dec 15 14:18:41 2017] ***
+compiled with version: 5.4.0 20160609 on 04 December 2017 14:13:56
+os: Linux-4.10.0-40-generic #44~16.04.1-Ubuntu SMP Thu Nov 9 15:37:44 UTC 2017
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /home/atguigu/PycharmProjects/bookstore
+writing pidfile to uwsgi.pid
+detected binary path: /home/atguigu/.virtualenvs/py2/bin/uwsgi
+chdir() to /home/atguigu/PycharmProjects/bookstore
+your processes number limit is 7744
+your memory page size is 4096 bytes
+detected max file descriptor number: 65536
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:8001).
+bind(): Address already in use [core/socket.c line 769]
+*** Starting uWSGI 2.0.15 (64bit) on [Fri Dec 15 14:20:02 2017] ***
+compiled with version: 5.4.0 20160609 on 04 December 2017 14:13:56
+os: Linux-4.10.0-40-generic #44~16.04.1-Ubuntu SMP Thu Nov 9 15:37:44 UTC 2017
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /home/atguigu/PycharmProjects/bookstore
+writing pidfile to uwsgi.pid
+detected binary path: /home/atguigu/.virtualenvs/py2/bin/uwsgi
+chdir() to /home/atguigu/PycharmProjects/bookstore
+your processes number limit is 7744
+your memory page size is 4096 bytes
+detected max file descriptor number: 65536
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8001 fd 3
+Python version: 3.5.2 (default, Nov 23 2017, 16:37:01)  [GCC 5.4.0 20160609]
+Set PythonHome to /home/atguigu/.virtualenvs/py2
+Python main interpreter initialized at 0x861a80
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 415280 bytes (405 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+unable to load app 0 (mountpoint='') (callable not found or import error)
+WSGI app 0 (mountpoint='') ready in 3 seconds on interpreter 0x861a80 pid: 27817 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 27817)
+spawned uWSGI worker 1 (pid: 27831, cores: 2)
+spawned uWSGI worker 2 (pid: 27833, cores: 2)
+spawned uWSGI worker 3 (pid: 27834, cores: 2)
+spawned uWSGI worker 4 (pid: 27836, cores: 2)
+[pid: 27833|app: 0|req: 1/1] 127.0.0.1 () {44 vars in 842 bytes} [Fri Dec 15 06:21:30 2017] GET /books/index/ => generated 9514 bytes in 958 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 27833|app: 0|req: 2/2] 127.0.0.1 () {44 vars in 781 bytes} [Fri Dec 15 06:21:31 2017] GET /cart/count/ => generated 10 bytes in 7 msecs (HTTP/1.1 200) 3 headers in 94 bytes (1 switches on core 1)
+[pid: 27833|app: 0|req: 3/3] 127.0.0.1 () {44 vars in 856 bytes} [Fri Dec 15 07:09:26 2017] GET /search/?q= => generated 3361 bytes in 177 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 27833|app: 0|req: 4/4] 127.0.0.1 () {44 vars in 779 bytes} [Fri Dec 15 07:09:27 2017] GET /cart/count/ => generated 10 bytes in 5 msecs (HTTP/1.1 200) 3 headers in 94 bytes (1 switches on core 1)
+[pid: 27831|app: 0|req: 1/5] 127.0.0.1 () {44 vars in 890 bytes} [Fri Dec 15 07:10:03 2017] GET /search/?q=%E7%AE%97%E6%B3%95 => generated 3865 bytes in 1071 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 27831|app: 0|req: 2/6] 127.0.0.1 () {44 vars in 797 bytes} [Fri Dec 15 07:10:04 2017] GET /cart/count/ => generated 10 bytes in 8 msecs (HTTP/1.1 200) 3 headers in 94 bytes (1 switches on core 1)
+[pid: 27834|app: 0|req: 1/7] 127.0.0.1 () {44 vars in 928 bytes} [Fri Dec 15 07:10:28 2017] GET /search/?q=%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0 => generated 3385 bytes in 747 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 27833|app: 0|req: 5/8] 127.0.0.1 () {44 vars in 815 bytes} [Fri Dec 15 07:10:29 2017] GET /cart/count/ => generated 10 bytes in 9 msecs (HTTP/1.1 200) 3 headers in 94 bytes (1 switches on core 0)
+[pid: 27836|app: 0|req: 1/9] 127.0.0.1 () {44 vars in 867 bytes} [Fri Dec 15 07:11:00 2017] GET /books/list/1/1/ => generated 6391 bytes in 931 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 27833|app: 0|req: 6/10] 127.0.0.1 () {44 vars in 784 bytes} [Fri Dec 15 07:11:01 2017] GET /cart/count/ => generated 10 bytes in 20 msecs (HTTP/1.1 200) 3 headers in 94 bytes (1 switches on core 1)

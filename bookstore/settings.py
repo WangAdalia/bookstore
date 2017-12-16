@@ -42,6 +42,8 @@ INSTALLED_APPS = [
     'tinymce',
     'cart',
     'order',
+    'comments',
+    'haystack',
 ]
 
 MIDDLEWARE_CLASSES = [
@@ -156,7 +158,6 @@ SESSION_ENGINE = 'django.contrib.sessions.backends.cache'
 SESSION_CACHE_ALIAS = 'default'
 
 
-
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.163.com'
 EMAIL_PORT = 25
@@ -167,4 +168,19 @@ EMAIL_HOST_PASSWORD = 'wang123'
 #收件人看到的发件人
 EMAIL_FROM = 'haha<13663828057@163.com>'
 
+
 ALIPAY_URL = 'https://openapi.alipaydev.com/gateway.do'
+
+HAYSTACK_CONNECTIONS = {
+    'default':{
+        #使用whoosh引擎
+        #'ENGINE':'haystack.backends.whoosh_cn_backend.WhooshEngine',
+        'ENGINE': 'haystack.backends.whoosh_backend.WhooshEngine',
+        #索引文件路径
+        'PATH': os.path.join(BASE_DIR, 'whoosh_index'),
+    }
+}
+#当添加,修改,删除数据时,自动生成索引
+HAYSTACK_SIGNAL_PROCESSOR = 'haystack.signals.RealtimeSignalProcessor'
+
+HAYSTACK_SEARCH_RESULTS_PER_PAGE = 6 # 指定搜索结果每页的条数
