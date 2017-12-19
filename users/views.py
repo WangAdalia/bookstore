@@ -115,7 +115,7 @@ def address(request):
     if request.method =='GET':
         #显示地址页面
         #查询用户的默认地址
-        addr = Address.objects.get_default_address(passport_is=passport_id)
+        addr = Address.objects.get_default_address(passport_id=passport_id)
         return render(request,'users/user_center_site.html',{'addr':addr,'page':'address'})
     else:
         #添加收货地址
