@@ -8,7 +8,6 @@ from django.http import JsonResponse,HttpResponse
 from utils.decorators import login_required
 from order.models import OrderInfo,OrderGoods
 from itsdangerous import TimedJSONWebSignatureSerializer as Serializer
-from itsdangerous import SignatureExpired
 import random
 from PIL import Image,ImageDraw,ImageFont
 import io
